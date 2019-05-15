@@ -10,6 +10,9 @@
 #include <ngx_md5.h>
 #include <ngx_sha1.h>
 
+#include <openssl/sha.h>
+#include <openssl/md5.h>
+
 #include "ngx_http_sticky_misc.h"
 
 #ifndef ngx_str_set                  
